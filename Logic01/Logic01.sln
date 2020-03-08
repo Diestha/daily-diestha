@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review", "Review\Review.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrartUp", "StrartUp\StrartUp.csproj", "{ED90C069-096D-46BE-B5D0-56340C06F78A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic04", "Logic04\Logic04.csproj", "{B1BEEDA5-BA7E-4A51-8D08-7784FCAF07A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{ED90C069-096D-46BE-B5D0-56340C06F78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED90C069-096D-46BE-B5D0-56340C06F78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED90C069-096D-46BE-B5D0-56340C06F78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BEEDA5-BA7E-4A51-8D08-7784FCAF07A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BEEDA5-BA7E-4A51-8D08-7784FCAF07A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BEEDA5-BA7E-4A51-8D08-7784FCAF07A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BEEDA5-BA7E-4A51-8D08-7784FCAF07A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

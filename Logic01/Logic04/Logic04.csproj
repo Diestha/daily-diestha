@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EF11045D-8E9C-47AB-8AFB-D7D2074CC0F1}</ProjectGuid>
+    <ProjectGuid>{B1BEEDA5-BA7E-4A51-8D08-7784FCAF07A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Logic3</RootNamespace>
-    <AssemblyName>Logic3</AssemblyName>
+    <RootNamespace>Logic04</RootNamespace>
+    <AssemblyName>Logic04</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,25 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Soal07.cs" />
-    <Compile Include="Soal03.cs" />
-    <Compile Include="Soal04.cs" />
-    <Compile Include="Soal05.cs" />
-    <Compile Include="Soal06.cs" />
-    <Compile Include="Soal08.cs" />
-    <Compile Include="Switch.cs" />
+    <Compile Include="Soal01.cs" />
+    <Compile Include="Soal02.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Base\Base.csproj">
-      <Project>{d225244c-c6e0-4326-80f8-393ed2314ff2}</Project>
-      <Name>Base</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

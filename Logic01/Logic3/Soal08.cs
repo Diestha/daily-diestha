@@ -21,17 +21,17 @@ namespace Logic03
         private int[] Count(string[] arr1)
         {
             int[] result = new int[1];
-            int max = 0;
+            int banyak = 0;
             int b = 0;
             for (int i = 0; i < arr1.Length; i++)
             {
-                b = int.Parse(arr1.Max());
-                if (int.Parse(arr1[i]) != b)
+                b = int.Parse(arr1.Max());//menentukan array terbesar
+                if (int.Parse(arr1[i]) != b)//membandingkan dengan array terbesar
                 {
-                    max++;
+                    banyak++;
                 }
             }
-            result[0] = max;
+            result[0] = banyak;
             return result;
         }
         private void ShowResult(int max)
